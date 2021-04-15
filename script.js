@@ -1,6 +1,6 @@
 
 if('serviceWorker' in navigator){
-    navigator.serviceWorker.register('https://github.com/balintAlexandru/PWA/blob/main/sw.js') ;
+    navigator.serviceWorker.register('https://balintalexandru.github.io/PWA/sw.js') ;
 }
 
 
