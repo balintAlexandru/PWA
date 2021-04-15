@@ -1,7 +1,7 @@
 self.addEventListener("install", e => {
     e.waitUntil(
         caches.open("static").then(cache =>{
-            return cache.addAll(["/PWA/index.html","/PWA/script.js","/PWA/style.css","/PWA/style.js","/PWA/logo.png","/PWA/logo1.png","/PWA/manifest.json"]);
+            return cache.addAll(["/index.html","/script.js","/style.css","/style.js","/logo.png","/logo1.png","/manifest.json"]);
         })
     );
 });
