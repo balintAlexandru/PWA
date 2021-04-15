@@ -1,19 +1,19 @@
 {
     "name": "Calculator",
     "short_name": "Calculator",
-    "start_url": "https://balintalexandru.github.io/PWA/index.html",
+    "start_url": "/index.html",
     "background_color" : "black",
     "theme_color" : "black",
     "display" : "standalone",
     "icons" : [
        { 
-           "src": "https://balintalexandru.github.io/PWA/logo.png",
+           "src": "/logo.png",
            "sizes": "192x192",
            "type": "image/png",
            "purpose": "any maskable"
        },
        { 
-           "src": "https://balintalexandru.github.io/PWA/logo1.png",
+           "src": "/logo1.png",
            "sizes": "512x512",
            "type": "image/png",
            "purpose": "any maskable"
