@@ -1,7 +1,14 @@
 self.addEventListener("install", e => {
     e.waitUntil(
         caches.open("static").then(cache =>{
-            return cache.addAll(["/sw.js", "/style.css", "/script.js", "/index.html", "style.js"])
+            return cache.addAll(["https://github.com/balintAlexandru/PWA/blob/main/index.html",
+                                 "https://github.com/balintAlexandru/PWA/blob/main/script.js",
+                                 "https://github.com/balintAlexandru/PWA/blob/main/style.css",
+                                 "https://github.com/balintAlexandru/PWA/blob/main/style.js",
+                                 "https://github.com/balintAlexandru/PWA/blob/main/logo.png",
+                                 "https://github.com/balintAlexandru/PWA/blob/main/logo1.png",
+                                 "https://github.com/balintAlexandru/PWA/blob/main/manifest.json"
+                                ])
         })
     );
 });
